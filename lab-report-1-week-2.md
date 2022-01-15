@@ -16,6 +16,7 @@ In this lab, you will use VScode to connect to CSE lab computers and edit files 
 > 2.  follow the instruction and dowland the right version for your operating system
 
 ##### Once the VScode is installed, you should be open a window look like this 
+
 ![](vscodwd.png)
 
 ---
@@ -47,7 +48,9 @@ In this lab, you will use VScode to connect to CSE lab computers and edit files 
 > 2. To log out the remote server, press Ctrl-D
 
 ##### The window should look similar to this after you run some commmands:
+
 ![](cmdsc.png)
+
 - - -
 ### Step 4: Moving Files with `scp`
 > 1. From the client, run the `scp` command with the file you want to move, using your username
@@ -57,8 +60,11 @@ In this lab, you will use VScode to connect to CSE lab computers and edit files 
 > 2. Enter your password
 > 3. Log into the server and use `ls`
 > 4. Compile and run the file on the ieng6 computer
+
 ##### The window should look like this after you run the file on the server:
+
 ![](scp.png)
+
 - - -
 ### Step 5: Setting an SSH Key
 > 1. On client, run the command `ssh-keygen`
@@ -68,8 +74,11 @@ In this lab, you will use VScode to connect to CSE lab computers and edit files 
 > 5. Move your public key file to the ieng6 computer. The command should look similar to this:
 > 
 > `scp /Users/yue.y/.ssh/id_rsa.pub cs15lwi22awl@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
 ##### Once you succesfully set up the SSH Key, you are able to log into the sever without password!
+
 ![](nopin.png)
+
 - - - 
 ### Step 6: Optimzing Remote Running
 > 1. To run remote code more easily, you can run the command in quotes after the `ssh` command 
@@ -79,12 +88,14 @@ In this lab, you will use VScode to connect to CSE lab computers and edit files 
 > 2. you can run mutiple commands on the same line using semicolons
 >
 > `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+
 ##### The window should look like this after you run  the `ls` command after `ssh`
-- - - 
+
 ![](ls.png)
+
 - - - 
 ## Congratulaiton! You finish the tutorial !
-- - - 
+
 
 
 
