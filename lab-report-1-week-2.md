@@ -44,7 +44,7 @@ In this lab, you will use VScode to connect to CSE lab computers and edit files 
 >   $ ls -lat
 >   $ ls -a
 >   $ ls <directory>
->   $ cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/```
+>   $ cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
 >   $ cat /home/linux/ieng6/cs15lwi22/public/hello.txt
 >```
 > 2. To log out the remote server, press Ctrl-D
@@ -57,7 +57,7 @@ In this lab, you will use VScode to connect to CSE lab computers and edit files 
 ### Step 4: Moving Files with ```scp```
 > 1. From the client, run the ```scp``` command with the file you want to move, using your username
 >```
-> $ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/```
+> $ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 >```
 > 2. Enter your password
 > 3. Log into the server and use ```ls```
