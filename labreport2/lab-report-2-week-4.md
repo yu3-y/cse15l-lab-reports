@@ -2,7 +2,7 @@
 ----
 ### Code Change 1
 ![cc1](cc1.png)
-This [file](https://yu3-y.github.io/markdown-parse/test-file6.html) was an failure-induced input.
+This [file](https://yu3-y.github.io/cse15l-lab-reports/labreport2/test-file6.html) was an failure-induced input.
 
 The symptom:
 
@@ -12,7 +12,7 @@ The symptom:
 ---
 ### Code Change 2
 ![cc2](cc2.png)
-This [file](https://yu3-y.github.io/markdown-parse/test-file3.html) was an failure-induced input.
+This [file](https://yu3-y.github.io/cse15l-lab-reports/labreport2/test-file3.html) was an failure-induced input.
 
 The symptom:
 ![s2](symptom2.png)
@@ -21,7 +21,7 @@ The symptom:
 ---
 ### Code Change 3
 ![cc3](cc3.png)
-This [file](https://yu3-y.github.io/markdown-parse/test-file5.html) was an failure-induced input.
+This [file](https://yu3-y.github.io/cse15l-lab-reports/labreport2/test-file5.html) was an failure-induced input.
 
 The symptom:
 ![s2](symptom3.png)
