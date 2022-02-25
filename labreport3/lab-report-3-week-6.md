@@ -6,3 +6,6 @@ The eidting was done on VS code
 - - - 
 ### using ```ssh`` command to login
 ![sl](lg.png)
+- - - 
+### using ```scp``` command to copy file
+![scp](scp.png)
