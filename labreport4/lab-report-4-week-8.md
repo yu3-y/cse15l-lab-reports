@@ -27,6 +27,8 @@ output after running the test
 #### Markdown File 1
 ![o1](o1.png)
 
+I have nerver consider the senerio where brackets could be inside of name of the link. To fix this issue bigger change of code is needed. A loop is needed to search for the last close bracket. After the index of the last close bracket is located, the program can verify if open parenthesis is on the next index.
+
 - - -
 ### Snippet 2
 This implementaion should produce the following result
@@ -45,6 +47,8 @@ the test was written in the MarkdownTest file
 output after running the test
 #### Markdown File 1
 ![o2](o2.png)
+
+To fix this bug, a small change of code is needed. I have never consider parenthesis can be inside the link. After the open parenthesis is loacted, the propgram should search for the las parenthesis and return the text inbewteen them.
 - - - 
 ### Snippet 3
 This implementaion should produce the following result
@@ -63,3 +67,5 @@ the test was written in the MarkdownTest file
 output after running the test
 #### Markdown File 1
 ![o3](o3.png)
+
+To fix this bug, a big change of code is required. Beacuse there is a link inside another link, which is a scenrio that was never considered before.
